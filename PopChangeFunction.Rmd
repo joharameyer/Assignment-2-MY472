@@ -16,6 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Function pop.change()
 # Calculates population change and inserts outcome into text chunk
+This function was built to work with the 'population' dataset in tidry. It takes a dataset that includes population data for different countries across different years and calculates average population change between the first and the last year for which data is available. It then inserts the calculated result in a text chunk. This function may for instance be useful for a yearly report that takes up-to-date population figures and calculates population change against a baseline.
 
 ```{r plot_example, echo=TRUE}
 # Load dataset 'population' from tidyr
